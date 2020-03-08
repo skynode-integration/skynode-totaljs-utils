@@ -6834,4 +6834,4 @@ exports.reader = function() {
 const BUFEMPTYJSON = Buffer.from('{}');
 
 global.WAIT = exports.wait;
-!global.F && require('./index');
+//!global.F && require('./index');
